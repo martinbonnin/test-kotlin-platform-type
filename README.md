@@ -1,6 +1,9 @@
 To reproduce:
 
 ```
+git clone https://github.com/martinbonnin/test-kotlin-platform-type
+cd test-kotlin-platform-type
+git checkout d2745e2
 cd lib
 ./gradlew publishToMavenLocal
 cd ../app
